@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./client/styles/main.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
     <div id="app">
@@ -17,83 +17,175 @@
         </ul>
       </nav>
       <button></button>
-      <div class="about">
-        <h3>About Me</h3>
-        <p>
-          Hi, I&apos;m Jess, a recently qualified Full Stack Web Developer
-          fueled by a passion for crafting digital experiences and learning
-          while I do it. My journey into the world of web development began last
-          year, when I had a brief intro to it and decided to roll with it due
-          to pure enjoyment.
-        </p>
-        <p>
-          What I really like about web development and have grown to appreciate
-          each day, is how hands-on it is, and how much problem-solving is
-          required.
-        </p>
-        <p>
-          Outside of coding, I enjoy spending time with my loved ones - pets
-          included! As a former personal trainer, I&apos;m dedicated to a
-          balanced lifestyle.
-        </p>
-        <p>
-          In my academic years, I excelled through the years and finished my
-          last year of high school with scholar award for achieving more than
-          90%.
-        </p>
-        <p>
-          I believe continuous growth, open-mindedness, and collaboration are
-          very important and that is what I will be bringing to the table as I
-          kick-start my career.
-        </p>
-        <p>
-          Please delve into the digital realm that is my portfolio to have a
-          look at what I have achieved, where I have worked, what my skills are,
-          and please feel free to use the light-dark theme button to adjust to
-          your preference.
-        </p>
+      <div class="about-container">
+        <div class="my-image">
+          <img src="./public/my-image.jpeg" alt="Picture of me" />
+        </div>
+        <div class="about-info">
+          <h3>About Me</h3>
+          <p>
+            Hi, I&apos;m Jess, a recently qualified Full Stack Web Developer
+            fueled by a passion for crafting digital experiences and learning
+            while I do it. My journey into the world of web development began
+            last year, when I had a brief intro to it and decided to roll with
+            it due to pure enjoyment.
+          </p>
+          <p>
+            What I really like about web development and have grown to
+            appreciate each day, is how hands-on it is, and how much
+            problem-solving is required.
+          </p>
+          <p>
+            Outside of coding, I enjoy spending time with my loved ones - pets
+            included! As a former personal trainer, I&apos;m dedicated to a
+            balanced lifestyle.
+          </p>
+          <p>
+            In my academic years, I excelled through the years and finished my
+            last year of high school with scholar award for achieving more than
+            90%.
+          </p>
+          <p>
+            I believe continuous growth, open-mindedness, and collaboration are
+            very important and that is what I will be bringing to the table as I
+            kick-start my career.
+          </p>
+          <p>
+            Please delve into the digital realm that is my portfolio to have a
+            look at what I have achieved, where I have worked, what my skills
+            are, and please feel free to use the light-dark theme button to
+            adjust to your preference.
+          </p>
+        </div>
       </div>
-      <div class="skills">
-        <ul>
-          <li>JavaScript</li>
-
-          <li>TypeScript</li>
-
-          <li>Git</li>
-
-          <li>React</li>
-
-          <li>Node.js</li>
-
-          <li>Tailwind</li>
-
-          <li>CSS</li>
-
-          <li>HTML</li>
-
-          <li>SQLite3</li>
-
-          <li>Visual Studio Code</li>
-
-          <li>Receiving Feedback</li>
-
-          <li>Teamwork and collaboration</li>
-
-          <li>Reliability</li>
-
-          <li>Listening</li>
-
-          <li>Attention to Detail</li>
-
-          <li>Time Management</li>
-
-          <li>Kanban / Agile Processes</li>
-
-          <li>Planning and Organisation</li>
-          <li>Touch Type approx. 80wpm</li>
-        </ul>
+      <div class="skills-container">
+        <div class="tech-skills">
+          <ul>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Tailwind</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>SQLite3</li>
+            <li>Visual Studio Code</li>
+            <li>Touch Type approx. 80wpm</li>
+            <li>Testing: Jest, Nock, Mock</li>
+          </ul>
+        </div>
+        <div class="soft-skills">
+          <ul>
+            <li>Receiving Feedback</li>
+            <li>Teamwork and collaboration</li>
+            <li>Reliability</li>
+            <li>Listening</li>
+            <li>Attention to Detail</li>
+            <li>Time Management</li>
+            <li>Kanban / Agile Processes</li>
+            <li>Planning and Organisation</li>
+          </ul>
+        </div>
       </div>
-      <div class="projects"></div>
+      <div class="projects">
+        <div class="aim-trainer">
+          <div class="aim-trainer-info">
+            <h3>Aim Trainer</h3>
+            <p>
+              This is Aim Trainer, the ultimate tool crafted by a group of
+              students for gamers to be able to enhance their clicking speed and
+              precision!
+            </p>
+            <p>
+              This project includes a database to store players and game modes,
+              front-end React routing, server-side tests (heavy focus) and more!
+            </p>
+            <p>
+              Languages and tools used include: React, TypeScript, JavaScript,
+              SQLite3, CSS, testing
+            </p>
+            <a href="link-to-github-repo" target="_blank">GitHub Repository</a>
+            <div class="aim-trainer-pic">
+              <img
+                src="./public/aim-trainer.jpeg"
+                alt="Aim Trainer Homepage Screenshot"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="todo-full-stack">
+          <div class="todo-full-stack-info">
+            <h3>To Do Full Stack</h3>
+            <p>
+              This was a Dev Academy challenge introduced to us to practice
+              moving through the full stack that is developing a simple,
+              effective website.
+            </p>
+            <p>
+              Languages and tools used include: React, TypeScript, JavaScript,
+              SQLite3, CSS
+            </p>
+            <a href="link-to-github-repo" target="_blank">GitHub Repository</a>
+            <div class="todo-full-stack-pic">
+              <img
+                src="./public/todo-full-stack.jpeg"
+                alt="To Do Full Stack Screenshot"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="exercise-engine">
+          <div class="exercise-engine-info">
+            <h3>Exercise Engine</h3>
+            <p>
+              This is a look at my first personal project! Due to my passion for
+              exercise and helping those with injuries to continue to get joy
+              from moving their body, I decided to create a workout generator!
+            </p>
+            <p>
+              I took the opportunity to learn Tailwind for the first time and
+              thoroughly enjoyed it.
+            </p>
+            <p>
+              Languages and tools used include: React, JavaScript, TypeScript,
+              Tailwind, SQLite3
+            </p>
+            <a href="link-to-github-repo" target="_blank">GitHub Repository</a>
+            <div class="exercise-engine-pic">
+              <img
+                src="./public/exercise-engine.jpeg"
+                alt="Exercise Engine Homepage Screenshot"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="worldwide-routing">
+          <div class="worldwide-routing-info">
+            <h3>Worldwide Routing</h3>
+            <p>
+              This is my first practice with React routing. The information for
+              this Dev Academy challenge was provided, along with styling.
+              However, it was up to us to make sure everything linked properly,
+              etc. All components were not provided for us (except for App.tsx).
+            </p>
+            <p>
+              Languages and tools used include: React, JavaScript, TypeScript
+            </p>
+            <a href="link-to-github-repo" target="_blank">GitHub Repository</a>
+            <div class="worldwide-routing-pic">
+              <img
+                src="./public/worldwide-routing.jpeg"
+                alt="Exercise Engine Homepage Screenshot"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
