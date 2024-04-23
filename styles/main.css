@@ -1,0 +1,101 @@
+body {
+  background-image: url('../public/light-theme.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.skills-container,
+.about-container,
+.projects {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.about-info {
+  text-align: left;
+}
+
+.my-image {
+  text-align: center;
+}
+
+#my-image {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.skills-container {
+  text-align: center;
+}
+
+.projects {
+  display: grid;
+  gap: 20px;
+}
+
+.projects > div {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.projects h3 {
+  text-align: center;
+}
+
+.projects img {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 100%;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.projects a {
+  display: block;
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 2px solid black;
+}
+
+.tech-skills,
+.soft-skills {
+  display: inline-block;
+}
+
+.tech-skills li,
+.soft-skills li {
+  list-style: none;
+}
