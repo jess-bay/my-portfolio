@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./styles/main.css" />
+    <!-- <link rel="stylesheet" href="./styles/main.css" /> -->
+    <link rel="stylesheet" href="./styles/second.css" />
   </head>
   <body>
     <div id="app">
       <nav>
         <ul>
-          <li><a href="github link" target="_blank">github</a></li>
-          <li><a href="linkedin link" target="_blank">linkedin</a></li>
-          <li><a href="mailto" target="_blank">email</a></li>
+          <li><a href="github link" target="_blank">GitHub</a></li>
+          <li><a href="linkedin link" target="_blank">LinkedIn</a></li>
+          <li><a href="mailto" target="_blank">Email</a></li>
         </ul>
       </nav>
       <!-- <button></button> -->
@@ -91,36 +92,39 @@
         </div>
       </div>
       <div class="projects">
-        <div class="aim-trainer">
-          <div class="aim-trainer-info">
-            <h3>Aim Trainer</h3>
-            <p>
-              This is Aim Trainer, the ultimate tool crafted by a group of
-              students for gamers to be able to enhance their clicking speed and
-              precision!
-            </p>
-            <p>
-              This project includes a database to store players and game modes,
-              front-end React routing, server-side tests (heavy focus) and more!
-            </p>
-            <p>
-              Languages and tools used include: React, TypeScript, JavaScript,
-              SQLite3, CSS, testing
-            </p>
-            <a href="link-to-github-repo" target="_blank">GitHub Repository</a>
-            <br />
-            <a href="https://aim-trainer.pushed.nz/">Play it!</a>
-            <div class="aim-trainer-pic">
-              <img
-                src="./public/aim-trainer.jpeg"
-                alt="Aim Trainer Homepage Screenshot"
-              />
-            </div>
-          </div>
+        <div class="project-item"">
+          <!-- <h3 class="project-heading">Aim Trainer</h3> -->
+            <div class="project-info">
+              <h3>Aim Trainer</h3>
+              <p>
+                This is Aim Trainer, the ultimate tool crafted by a group of
+                students for gamers to be able to enhance their clicking speed
+                and precision!
+              </p>
+              <p>
+                This project includes a database to store players and game
+                modes, front-end React routing, server-side tests (heavy focus)
+                and more!
+              </p>
+              <p>
+                Languages and tools used include: React, TypeScript, JavaScript,
+                SQLite3, CSS, testing
+              </p>
+              <a href="link-to-github-repo" target="_blank" id="gh-link"
+                >GitHub Repository</a
+              >
+              <br />
+              <a href="https://aim-trainer.pushed.nz/" id="play-it">Play it!</a>
+            </div> 
+            <div class="project-pic">
+                <img
+                  src="./public/aim-trainer.jpeg"
+                  alt="Aim Trainer Homepage Screenshot"
+                />
+              </div>   
         </div>
-
-        <div class="todo-full-stack">
-          <div class="todo-full-stack-info">
+     <div class="project-item">
+          <div class="project-info">
             <h3>To Do Full Stack</h3>
             <p>
               This was a Dev Academy challenge introduced to us to practice
@@ -131,18 +135,39 @@
               Languages and tools used include: React, TypeScript, JavaScript,
               SQLite3, CSS
             </p>
-            <a href="link-to-github-repo" target="_blank">GitHub Repository</a>
-            <div class="todo-full-stack-pic">
+            <a href="link-to-github-repo" target="_blank" id="gh-link">GitHub Repository</a>
+          </div>
+          <div class="project-pic">
               <img
                 src="./public/todo-full-stack.jpeg"
                 alt="To Do Full Stack Screenshot"
               />
             </div>
-          </div>
+      </div>
+      <div class="project-item">
+        <div class="project-info">
+          <h3>Full Stack Portfolio</h3>
+          <p>
+            This is a version of my portfolio that I originally began with. It showcases my skills of moving from back-end to front-end. 
+          </p>
+          <p>
+            I took the opportunity to practice my Tailwind styling, but mixed in some classic CSS to help with the light and dark mode options (before I learnt about Bulma)
+          </p>
+          <p>
+            Languages and tools used include: React, JavaScript, TypeScript,
+            Tailwind, SQLite3, CSS
+          </p>
+          <a href="link-to-github-repo" target="_blank" id="gh-link">GitHub Repository</a>
         </div>
-
-        <div class="exercise-engine">
-          <div class="exercise-engine-info">
+        <div class="project-pic">
+            <img
+              src="./public/portfolio-theme.jpeg"
+              alt="Portfolio Light Mode Homepage Screenshot"
+            />
+          </div>
+    </div>
+      <div class="project-item">
+          <div class="project-info">
             <h3>Exercise Engine</h3>
             <p>
               This is a look at my first personal project! Due to my passion for
@@ -157,18 +182,17 @@
               Languages and tools used include: React, JavaScript, TypeScript,
               Tailwind, SQLite3
             </p>
-            <a href="link-to-github-repo" target="_blank">GitHub Repository</a>
-            <div class="exercise-engine-pic">
+            <a href="link-to-github-repo" target="_blank" id="gh-link">GitHub Repository</a>
+          </div>
+          <div class="project-pic">
               <img
                 src="./public/exercise-engine.jpeg"
                 alt="Exercise Engine Homepage Screenshot"
               />
             </div>
-          </div>
-        </div>
-
-        <div class="worldwide-routing">
-          <div class="worldwide-routing-info">
+      </div>
+      <div class="project-item">
+          <div class="project-info">
             <h3>Worldwide Routing</h3>
             <p>
               This is my first practice with React routing. The information for
@@ -179,16 +203,16 @@
             <p>
               Languages and tools used include: React, JavaScript, TypeScript
             </p>
-            <a href="link-to-github-repo" target="_blank">GitHub Repository</a>
-            <div class="worldwide-routing-pic">
+            <a href="link-to-github-repo" target="_blank" id="gh-link">GitHub Repository</a>
+             </div>
+             <div class="project-pic">
               <img
                 src="./public/worldwide-routing.jpeg"
                 alt="Exercise Engine Homepage Screenshot"
               />
             </div>
-          </div>
-        </div>
       </div>
+    </div>
     </div>
   </body>
 </html>
