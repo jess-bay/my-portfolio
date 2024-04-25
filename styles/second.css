@@ -165,7 +165,8 @@ nav ul {
 }
 
 #gh-link,
-#play-it {
+#play-it,
+#cv-link {
   background-color: rgb(211, 203, 203);
   border-radius: 5px;
   padding: 10px;
@@ -175,7 +176,8 @@ nav ul {
 }
 
 #gh-link:hover,
-#play-it:hover {
+#play-it:hover,
+#cv-link:hover {
   background-color: #d63384;
   color: white;
 }
