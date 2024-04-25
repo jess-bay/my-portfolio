@@ -186,4 +186,7 @@ nav ul {
   .project-item {
     grid-template-columns: 1fr;
   }
+  .project-info {
+    margin-bottom: 10px;
+  }
 }
