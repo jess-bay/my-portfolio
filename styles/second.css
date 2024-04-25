@@ -32,30 +32,81 @@ nav ul {
 }
 
 .about-container {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.3);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin: 20px;
-  transition: transform 0.3s ease-in-out;
+  display: flex;
+  align-items: flex-start;
+}
+
+#my-image-div {
+  width: 200px;
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-top: 40px;
 }
 
 #my-image {
-  display: block;
-  margin: 0 auto;
-  width: 100px;
+  width: 100%;
+  height: auto;
   border-radius: 50%;
 }
 
-.about-container:hover {
-  transform: translateY(-10px);
+.about-bg {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
 }
 
 .about-info {
-  background: #ffe0f0;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  flex: 1;
+}
+
+.about-bg:hover {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.tech-skills,
+.soft-skills {
+  flex: 1;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+
+.tech-skills {
+  margin-left: 20%;
+  margin-right: 5px;
+}
+
+.tech-skills:hover {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.soft-skills {
+  margin-right: 20%;
+  margin-left: 5px;
+}
+
+.soft-skills:hover {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .projects {
@@ -72,7 +123,7 @@ nav ul {
   border-radius: 8px;
   overflow: hidden;
   margin: 20px 0;
-  padding: 50px;
+  padding: 20px;
   position: relative;
   background-color: rgba(255, 255, 255, 0.3);
 }
@@ -114,4 +165,25 @@ nav ul {
   padding: 10px;
   margin-bottom: 10px;
   display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+#gh-link:hover,
+#play-it:hover {
+  background-color: #d63384;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-bg {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-item {
+    grid-template-columns: 1fr;
+  }
 }
